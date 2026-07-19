@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.improvertech",
+    "module": "nativelan-android",
+    "version": "0.0.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "nativelan-android-0.0.9.aar",
+          "url": "nativelan-android-0.0.9.aar",
+          "size": 17399,
+          "sha512": "6600456d502f2340a177e60290eac0942453b9cf9b3316d3c0a655e43709959d61135a883fc1788c1449d48f92b068ad600a519ed398b95f9869711256472f2d",
+          "sha256": "e03f15f0386e5d38486036fdd8e9656e7561040c818f52d22dc3c7935c15bd2e",
+          "sha1": "6d8dc662870e2768ba5fca6711a2565886959d86",
+          "md5": "c2c10ca791f857086bffe05ca9d4285a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativelan-android-0.0.9.aar",
+          "url": "nativelan-android-0.0.9.aar",
+          "size": 17399,
+          "sha512": "6600456d502f2340a177e60290eac0942453b9cf9b3316d3c0a655e43709959d61135a883fc1788c1449d48f92b068ad600a519ed398b95f9869711256472f2d",
+          "sha256": "e03f15f0386e5d38486036fdd8e9656e7561040c818f52d22dc3c7935c15bd2e",
+          "sha1": "6d8dc662870e2768ba5fca6711a2565886959d86",
+          "md5": "c2c10ca791f857086bffe05ca9d4285a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nativelan-android-0.0.9-sources.jar",
+          "url": "nativelan-android-0.0.9-sources.jar",
+          "size": 6375,
+          "sha512": "3d592d3c5e677f721af80842a37db2f27d4b918732ff8c9a1d0144e737cda6707ec60a60bdbc3fa1342e7776c5b777ae9d8f9acc53707269837c613ae0579cb8",
+          "sha256": "4c61e454880a6eecdebd683d1eb203f097198c9383c46e8f7a05bf82546fdfc8",
+          "sha1": "a3dd89b2ef8e75ec00649521b2c30900a47aa82d",
+          "md5": "eedeab89bf8e368bac694dc960a6b945"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nativelan-android-0.0.9-javadoc.jar",
+          "url": "nativelan-android-0.0.9-javadoc.jar",
+          "size": 319596,
+          "sha512": "5147584db9e64a1bbb4e6a64a68b209662c9636041956285820506644596017008335bae242b8cdb2797639a193c4a29f88b62446ef4032c90408612cb1ec260",
+          "sha256": "82bb245b8c0d6ed008af30a0968624b3c876252379623681f8ede2a63708de4e",
+          "sha1": "d1eb30a727965d01fca3e6f69b1e1aefe42325ef",
+          "md5": "def334d49cc99d99f916db1fa589dd33"
+        }
+      ]
+    }
+  ]
+}
