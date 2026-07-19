@@ -36,7 +36,7 @@ Add the SDK dependency to your application module's `build.gradle`:
 
 ```groovy
 dependencies {
-    implementation 'com.improvertech:nativelan-android:0.0.1'
+    implementation 'com.improvertech:nativelan-android:0.0.5'
 }
 ```
 
