@@ -15,7 +15,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://raw.githubusercontent.com/Work-On-Idea/nativelan-android-sdk/main/' }
+        maven { url = uri("https://raw.githubusercontent.com/Work-On-Idea/nativelan-android-sdk/main/") }
     }
 }
 ```
@@ -26,7 +26,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://raw.githubusercontent.com/Work-On-Idea/nativelan-android-sdk/main/' }
+        maven { url = uri("https://raw.githubusercontent.com/Work-On-Idea/nativelan-android-sdk/main/") }
     }
 }
 ```
@@ -36,7 +36,7 @@ Add the SDK dependency to your application module's `build.gradle`:
 
 ```groovy
 dependencies {
-    implementation 'com.improvertech:nativelan-android:0.0.9'
+    implementation 'com.improvertech:nativelan-android:0.0.10'
 }
 ```
 
